@@ -22,8 +22,7 @@
 ## 登录
  * login
     * 说明 使用用户邮箱/口令登录
-    * URL格式 http://xxx.xxx.xxx/api/1/login.format
-		* 注：format为支持格式，使用时需要替换为实际支持格式，如json
+    * URL格式 http://xxx.xxx.xxx/api/1/login
     * 支持格式 JSON
     * HTTP请求方式 POST
     * 请求参数
@@ -35,8 +34,7 @@
 ## 注册
  * register
     * 说明 注册用户相关信息
-    * URL格式 http://xxx.xxx.xxx/api/1/register.format
-		* 注：format为支持格式，使用时需要替换为实际支持格式，如json
+    * URL格式 http://xxx.xxx.xxx/api/1/register
     * 支持格式 JSON
     * HTTP请求方式 POST
     * 请求参数
@@ -48,8 +46,7 @@
 ## 登出
  * logout
     * 说明 用户退出登录
-    * URL格式 http://xxx.xxx.xxx/api/1/logout.format
-		* 注：format为支持格式，使用时需要替换为实际支持格式，如json
+    * URL格式 http://xxx.xxx.xxx/api/1/logout
     * 支持格式 JSON
     * HTTP请求方式 GET
     * 请求参数
@@ -61,8 +58,7 @@
 ## 获取用户信息
  * users/show
     * 说明 获取用户信息
-    * URL格式 http://xxx.xxx.xxx/api/1/users/show.format
-		* 注：format为支持格式，使用时需要替换为实际支持格式，如json
+    * URL格式 http://xxx.xxx.xxx/api/1/users/show
     * 支持格式 JSON
     * HTTP请求方式 GET
     * 请求参数
@@ -75,8 +71,7 @@
 ## 更新用户信息
  * users/update
     * 说明 获取用户信息
-    * URL格式 http://xxx.xxx.xxx/api/1/users/update.format
-		* 注：format为支持格式，使用时需要替换为实际支持格式，如json
+    * URL格式 http://xxx.xxx.xxx/api/1/users/update
     * 支持格式 JSON
     * HTTP请求方式 POST,PUT
     * 请求参数
@@ -91,8 +86,7 @@
  * 读取接口
 	* projects/show
     	* 说明 根据项目ID获取项目信息
-		* URL格式 http://xxx.xxx.xxx/api/1/projects/show.format
-			* 注：format为支持格式，使用时需要替换为实际支持格式，如json
+		* URL格式 http://xxx.xxx.xxx/api/1/projects/show
 		* 支持格式 JSON			
 		* HTTP请求方式 GET
 		* 登录限制 是
